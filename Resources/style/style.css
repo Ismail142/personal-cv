@@ -1,0 +1,123 @@
+/* Globals */
+.profile-container {
+    display: grid;
+    place-items: center;
+}
+
+/* Header */
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(#92c7b95e, #cfd8ea28),url("./images/660691.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.title {
+    display: grid;
+    place-items: center;
+    height: 90vh;
+}
+
+h3 {
+    color: black;
+    text-decoration: underline;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+}
+
+.profile-title {
+    text-align: center;
+}
+
+/* Section Profile */
+
+.profile {
+    padding: 20px;
+    background-color: #bde0fe;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.yu {
+    border-radius: 100%;
+}
+
+.profile-container {
+    margin:  50px 0;
+}
+
+p {
+    font-size: 20px;
+}
+    
+/* Skills */
+.skills,
+.testimonial {
+    padding: 20px;
+    
+}
+
+.skills {
+    background-color: #ece5dd;
+}
+
+.bi {
+    font-size: 25px;
+    color: blue;
+}
+
+h4 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.col-4 {
+    padding: 20px 0;
+}
+
+.marquee-container {
+    padding: 40px 20px;
+    display: grid;
+    place-items: center;
+    width: 10%
+}
+
+.testimonial {
+    background-color: #ece5dd;
+}
+
+/* .marquee-container p {
+    width: 10px;
+} */
+
+footer {
+    padding-top: 40px;
+    background-color: #6b705c;
+}
+
+footer p {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.bi-whatsapp {
+    color: #36fa6d;
+}
+
